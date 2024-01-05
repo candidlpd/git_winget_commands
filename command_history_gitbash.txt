@@ -1,0 +1,126 @@
+    1  pwd
+    2  cd C:H:
+    3  pwd
+    4  cd /h
+    5  pwd
+    6  ls
+    7  git config --list
+    8  pwd
+    9  [200~git config --global user.name "Your Name"
+   10  git config --global user.name "LPD"
+   11  git config --global user.email "candidlpd@gmail.com"
+   12  git config --list
+   13  git config --global core.editor "notepad++"
+   14  cls
+   15  clear
+   16  git config --list
+   17  git config --global init.defaultBranch feature_lp
+   18  git config --global merge.tool kdiff3
+   19  git config --global core.autocrlf true
+   20  git config --global credential.username "candidlpd@gmail.com"
+   21  history
+   22  git config --get user.email
+   23  git config --list
+   24  git config --list --name-only
+   25  git config --list --show-origin
+   26  git config -l
+   27  git config --edit --global
+   28  clear
+   29  windget install notepad++
+   30  history
+   31  git config --global core.editor "notepad++"
+   32  git config --edit --global
+   33  git config --list --system
+   34  git config --system color.ui true
+   35  git config --edit --system
+   36  git config --global --list
+   37  git config --global user.name "LPD"
+   38  git config --global --edit
+   39  git config --local --list
+   40  git config --local core.ignorecase true
+   41  git config --local --edit
+   42  git config --list
+   43  git config --list --show-origin
+   44  history
+   45  git config --global --list
+   46  git config --local --list
+   47  git config --system --list
+   48  cat ~/.gitconfig
+   49  clear
+   50  git config --global --list
+   51  git config --global --get user.name
+   52  git config --global --get user.email
+   53  git config --global credential.helper
+   54  git config --global gui.recentrepo
+   55  git config --global -l
+   56  git config --global --list
+   57  git config --global --l | grep core
+   58  git config --global -l | grep core
+   59  git config --list
+   60  git config --global color.ui.auto
+   61  git config --global merge.conflictstyle diff3
+   62  git config --list
+   63  git config --global core.editor "code --wait"
+   64  ls
+   65  git init
+   66  ls
+   67  ls -a
+   68  ls -lrt
+   69  ls -ll
+   70  ls
+   71  cd vc
+   72  ls
+   73  mkdir complete_git_commands
+   74  pwd
+   75  ls
+   76  cd complete_git_commands/
+   77  ls
+   78  cd ..
+   79  ls
+   80  git branch feture_lp
+   81  git branch --list
+   82  git checkout -b feature_lp
+   83  git branch --a
+   84  git branch --list
+   85  ls
+   86  git add .
+   87  git rm --cached Machine-Learning-Samples
+   88  ls
+   89  git add complete_git_commands/
+   90  git commit -m "committing git commands to local repo"
+   91  history
+   92  git config --get remote.origin.url
+   93  git remote show origin
+   94  git config --global init.defaultBranch feature_lp
+   95  git init
+   96  ls
+   97  pwd
+   98  git add complete_git_commands/
+   99  git commit -m "initial commit"
+  100  git remote add origin https://github.com/candidlpd/git_winget_commands.git
+  101  git branch -M main
+  102  git push -u origin main
+  103  ls
+  104  cd complete_git_commands/
+  105  ls
+  106  git init
+  107  git add .
+  108  git commit -m "first commit"
+  109  git remote add origin https://github.com/candidlpd/git_winget_commands.git
+  110  git push origin feature_lp
+  111  git branch
+  112  git branch --list
+  113  git branch -a
+  114  history
+  115  history -w
+  116  history | awk '{$1=""; print substr($0,2)}' | column -t > command_history.txt
+  117  ls
+  118  git add command_history.txt
+  119  git commit -m "new history"
+  120  git remote -v
+  121  git remote -v | grep origin | awk '{print $2}'
+  122  git remote add origin https://github.com/candidlpd/git_winget_commands.git
+  123  git push origin feature_lp
+  124  clear
+  125  hitory > command_history_gitbash.txt
+  126  history > command_history_gitbash.txt
