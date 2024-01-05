@@ -1,0 +1,116 @@
+pwd                                                                                                                                                                                   
+cd            C:H:                                                                                                                                                                    
+pwd                                                                                                                                                                                   
+cd            /h                                                                                                                                                                      
+pwd                                                                                                                                                                                   
+ls                                                                                                                                                                                    
+git           config                  --list                                                                                                                                          
+pwd                                                                                                                                                                                   
+[200~git  config                  --global                user.name                 "Your                                                 Name"                                   
+git           config                  --global                user.name                 "LPD"                                                                                         
+git           config                  --global                user.email                "candidlpd@gmail.com"                                                                         
+git           config                  --list                                                                                                                                          
+git           config                  --global                core.editor               "notepad++"                                                                                   
+cls                                                                                                                                                                                   
+clear                                                                                                                                                                                 
+git           config                  --list                                                                                                                                          
+git           config                  --global                init.defaultBranch        feature_lp                                                                                    
+git           config                  --global                merge.tool                kdiff3                                                                                        
+git           config                  --global                core.autocrlf             true                                                                                          
+git           config                  --global                credential.username       "candidlpd@gmail.com"                                                                         
+history                                                                                                                                                                               
+git           config                  --get                   user.email                                                                                                              
+git           config                  --list                                                                                                                                          
+git           config                  --list                  --name-only                                                                                                             
+git           config                  --list                  --show-origin                                                                                                           
+git           config                  -l                                                                                                                                              
+git           config                  --edit                  --global                                                                                                                
+clear                                                                                                                                                                                 
+windget       install                 notepad++                                                                                                                                       
+history                                                                                                                                                                               
+git           config                  --global                core.editor               "notepad++"                                                                                   
+git           config                  --edit                  --global                                                                                                                
+git           config                  --list                  --system                                                                                                                
+git           config                  --system                color.ui                  true                                                                                          
+git           config                  --edit                  --system                                                                                                                
+git           config                  --global                --list                                                                                                                  
+git           config                  --global                user.name                 "LPD"                                                                                         
+git           config                  --global                --edit                                                                                                                  
+git           config                  --local                 --list                                                                                                                  
+git           config                  --local                 core.ignorecase           true                                                                                          
+git           config                  --local                 --edit                                                                                                                  
+git           config                  --list                                                                                                                                          
+git           config                  --list                  --show-origin                                                                                                           
+history                                                                                                                                                                               
+git           config                  --global                --list                                                                                                                  
+git           config                  --local                 --list                                                                                                                  
+git           config                  --system                --list                                                                                                                  
+cat           ~/.gitconfig                                                                                                                                                            
+clear                                                                                                                                                                                 
+git           config                  --global                --list                                                                                                                  
+git           config                  --global                --get                     user.name                                                                                     
+git           config                  --global                --get                     user.email                                                                                    
+git           config                  --global                credential.helper                                                                                                       
+git           config                  --global                gui.recentrepo                                                                                                          
+git           config                  --global                -l                                                                                                                      
+git           config                  --global                --list                                                                                                                  
+git           config                  --global                --l                       |                                                     grep            core                    
+git           config                  --global                -l                        |                                                     grep            core                    
+git           config                  --list                                                                                                                                          
+git           config                  --global                color.ui.auto                                                                                                           
+git           config                  --global                merge.conflictstyle       diff3                                                                                         
+git           config                  --list                                                                                                                                          
+git           config                  --global                core.editor               "code                                                 --wait"                                 
+ls                                                                                                                                                                                    
+git           init                                                                                                                                                                    
+ls                                                                                                                                                                                    
+ls            -a                                                                                                                                                                      
+ls            -lrt                                                                                                                                                                    
+ls            -ll                                                                                                                                                                     
+ls                                                                                                                                                                                    
+cd            vc                                                                                                                                                                      
+ls                                                                                                                                                                                    
+mkdir         complete_git_commands                                                                                                                                                   
+pwd                                                                                                                                                                                   
+ls                                                                                                                                                                                    
+cd            complete_git_commands/                                                                                                                                                  
+ls                                                                                                                                                                                    
+cd            ..                                                                                                                                                                      
+ls                                                                                                                                                                                    
+git           branch                  feture_lp                                                                                                                                       
+git           branch                  --list                                                                                                                                          
+git           checkout                -b                      feature_lp                                                                                                              
+git           branch                  --a                                                                                                                                             
+git           branch                  --list                                                                                                                                          
+ls                                                                                                                                                                                    
+git           add                     .                                                                                                                                               
+git           rm                      --cached                Machine-Learning-Samples                                                                                                
+ls                                                                                                                                                                                    
+git           add                     complete_git_commands/                                                                                                                          
+git           commit                  -m                      "committing               git                                                   commands        to    local   repo"     
+history                                                                                                                                                                               
+git           config                  --get                   remote.origin.url                                                                                                       
+git           remote                  show                    origin                                                                                                                  
+git           config                  --global                init.defaultBranch        feature_lp                                                                                    
+git           init                                                                                                                                                                    
+ls                                                                                                                                                                                    
+pwd                                                                                                                                                                                   
+git           add                     complete_git_commands/                                                                                                                          
+git           commit                  -m                      "initial                  commit"                                                                                       
+git           remote                  add                     origin                    https://github.com/candidlpd/git_winget_commands.git                                          
+git           branch                  -M                      main                                                                                                                    
+git           push                    -u                      origin                    main                                                                                          
+ls                                                                                                                                                                                    
+cd            complete_git_commands/                                                                                                                                                  
+ls                                                                                                                                                                                    
+git           init                                                                                                                                                                    
+git           add                     .                                                                                                                                               
+git           commit                  -m                      "first                    commit"                                                                                       
+git           remote                  add                     origin                    https://github.com/candidlpd/git_winget_commands.git                                          
+git           push                    origin                  feature_lp                                                                                                              
+git           branch                                                                                                                                                                  
+git           branch                  --list                                                                                                                                          
+git           branch                  -a                                                                                                                                              
+history                                                                                                                                                                               
+history       -w                                                                                                                                                                      
+history       |                       awk                     '{$1="";                  print                                                 substr($0,2)}'  |     column  -t     >  command_history.txt
