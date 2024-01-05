@@ -1,0 +1,59 @@
+﻿Installing Git in vs code:
+1. winget install --id Git.Git -e --source winget
+
+2. Add C:\Program Files\Git\bin\ and C:\Program Files\Git\cmd\ to Path unde System Variables in Enviromental. 
+
+
+Id CommandLine                                                                                                                                                    
+-- -----------                                                                                                                                                    
+ 1 try { . "c:\Users\lpdda\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ 2 cd /d : H                                                                                                                                                      
+ 3 cd /d:H                                                                                                                                                        
+ 4 cd \                                                                                                                                                           
+ 5 cd /d:H                                                                                                                                                        
+ 6 cd H:\                                                                                                                                                         
+ 7 cls                                                                                                                                                            
+ 8 mkdir version_control                                                                                                                                          
+ 9 rm -r version_control                                                                                                                                          
+10 ls                                                                                                                                                             
+11 mkdir vc                                                                                                                                                       
+12 ls                                                                                                                                                             
+13 winget install --id Git.Git -e --source winget                                                                                                                 
+14 winget install --id Git.Git -e --source winget                                                                                                                 
+15 where git                                                                                                                                                      
+16 git --version                                                                                                                                                  
+17 whereis git                                                                                                                                                    
+18 winget install --id Git.Git -e --source winget                                                                                                                 
+19 winget --version                                                                                                                                               
+20 winget search git                                                                                                                                              
+21 winget search --id git.git                                                                                                                                     
+22 winget install --id Git.Git                                                                                                                                    
+23 winget upgrade                                                                                                                                                 
+24 winget search powertoys                                                                                                                                        
+25 winget --info                                                                                                                                                  
+26 winget                                                                                                                                                         
+27 winget search vl                                                                                                                                               
+28 winget search vlc                                                                                                                                              
+29 winget install VideoLan.VLC                                                                                                                                    
+30 winget upgrade                                                                                                                                                 
+31 winget source list                                                                                                                                             
+32 winget source update                                                                                                                                           
+33 winget list                                                                                                                                                    
+34 winget source reset --force                                                                                                                                    
+35 history                                                                                                                                                        
+36 Get-History                                                                                                                                                    
+37 Get-History | Format-Table -AutoSize | Out-String                                                                                                              
+38 $exportFilePath = "$env:USERPROFILE\command_history_table.txt"                                                                                                 
+39 # Get the command history and format it as a table...                                                                                                          
+
+
+==========================================================================================================================
+Git Commands
+========================================================================================
+
+1. # Create brand new repo in workding directory
+mkdir complete_git_commands
+git init 
+
+2. 
+
