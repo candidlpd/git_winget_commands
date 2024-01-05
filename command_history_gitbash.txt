@@ -124,3 +124,21 @@
   124  clear
   125  hitory > command_history_gitbash.txt
   126  history > command_history_gitbash.txt
+  127  git init
+  128  git add command_history_gitbash.txt 
+  129  git commit -m "add command history"
+  130  git remote -v
+  131  git remote add origin https://github.com/candidlpd/git_winget_commands.git
+  132  git push -u origin feature_lp
+  133  ls
+  134  git push origin --delete lp
+  135  git push --all --set-upstream origin
+  136  git branch -a
+  137  git branch --list
+  138  git pull origin feature_lp
+  139  ls
+  140  git mv git_history_table.txt command_history_winget.txt
+  141  git commit -m "rename git_history_table.txt to command_history_winget.txt"
+  142  git push origin feature_lp
+  143  history
+  144  history > command_history_gitbash.txt
