@@ -58,4 +58,5 @@ git init
 2. # installing winget in windows powershell
 set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 iwr -useb get.scope.sh | iex
-
+3. insalling python in winget 
+winget install -e --id Python.Python.3.10
