@@ -1,4 +1,4 @@
-﻿Installing Git in vs code:
+Installing Git in vs code:
 1. winget install --id Git.Git -e --source winget
 
 2. Add C:\Program Files\Git\bin\ and C:\Program Files\Git\cmd\ to Path unde System Variables in Enviromental. 
@@ -55,5 +55,7 @@ Git Commands
 mkdir complete_git_commands
 git init 
 
-2. 
+2. # installing winget in windows powershell
+set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+iwr -useb get.scope.sh | iex
 
